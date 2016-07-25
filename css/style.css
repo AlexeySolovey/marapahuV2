@@ -167,6 +167,8 @@ header .logo {
   display: table;
   margin-right: auto;
   padding-right: 30px;
+  position: relative;
+  top: 8px;
 }
 header .logo img {
   width: 100%;
