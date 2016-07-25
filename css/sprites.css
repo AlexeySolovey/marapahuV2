@@ -1,0 +1,64 @@
+.calculator, .calculator_hover, .list, .list_hover, .people, .people_hover, .target, .target_hover, .cogwheel, .cogwheel_hover{
+	background: url(sprites.png) no-repeat;
+}
+
+.calculator{
+	background-position: 0 0;
+	width: 84px;
+	height: 97px;
+}
+
+.calculator_hover{
+	background-position: -79px 0;
+	width: 84px;
+	height: 97px;
+}
+
+.list{
+	background-position: -167px -4px ;
+	width: 101px;
+	height: 95px;
+}
+
+.list_hover{
+	background-position: -265px -3px ;
+	width: 101px;
+	height: 95px;
+}
+
+.people{
+	background-position: -368px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.people_hover{
+	background-position: -468px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.target{
+	background-position: 0 -97px ;
+	width: 88px;
+	height: 97px;
+}
+
+.target_hover{
+	background-position: -93px -99px ;
+	width: 88px;
+	height: 97px;
+}
+
+.cogwheel{
+	background-position: -184px -96px ;
+	width: 99px;
+	height: 96px;
+}
+
+.cogwheel_hover{
+	background-position: -279px -98px ;
+	width: 99px;
+	height: 96px;
+}
+
