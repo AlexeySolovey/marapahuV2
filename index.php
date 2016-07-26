@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bxslider.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <link href="css/themes/image.css" rel="stylesheet" />
 </head>
 <body>
     <?php include_once "header.php";?>
@@ -265,9 +266,11 @@
 	<?php include_once "footer.php";?>
 
 
-	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/bxslider.min.js"></script>
-	<script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bxslider.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+
 </body>
 </html>
