@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="col-md-5">
-            <a href="/" class="logo">
+            <a href="index.php" class="logo">
                 <img src="images/logo.jpg" alt="Лого">
             </a>
         </div>
