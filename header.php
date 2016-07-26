@@ -77,7 +77,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="services.php">Наши услуги</a>
+                            <a href="services.php">Услуги</a>
                             <div class="jaw">
                                 <div></div>
                             </div>
