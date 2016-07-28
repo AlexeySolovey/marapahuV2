@@ -249,7 +249,7 @@ section.navigation .navbar #responsive-menu ul.navbar-nav {
   float: none;
 }
 section.navigation .navbar #responsive-menu ul.navbar-nav li {
-  padding: 5px 20px;
+  padding: 5px 10px;
   float: none;
   position: relative;
   display: inline-block;
@@ -1339,7 +1339,10 @@ aside .contacts-aside {
     width: auto;
   }
   #responsive-menu ul.navbar-nav li {
-    padding: 5px 10px !important;
+    padding: 5px 5px !important;
+  }
+  #responsive-menu ul.navbar-nav li a {
+    font-size: 14px !important;
   }
   footer .footer-column ul li .fa-email {
     float: none;
