@@ -18,12 +18,6 @@
 		});
 	});
 
-	$(function () {
-	    2
-	    $.scrollUp();
-	    3
-	});
-
 //	$('.tour').hover(
 //    function () {
 //        $(".order").css("display", "block");

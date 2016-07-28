@@ -67,6 +67,7 @@
 					</div>
 				</div>
                 <div class="carousel-img">
+
                 </div>
 			</div>
 		</div>
