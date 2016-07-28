@@ -1,4 +1,4 @@
-﻿<footer>
+<footer>
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-push-3 footer-column footer-social">
@@ -52,3 +52,8 @@
         </div>
     </div>
 </footer>
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bxslider.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script src="js/jquery.scrollUp.js"></script>

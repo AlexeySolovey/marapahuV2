@@ -1,6 +1,15 @@
 ﻿/*for page "Contacts"*/
 /*-------------------*/
 /*****************************
+			tittle
+*****************************/
+section.tittle {
+  background-color: #ff6501;
+  color: white;
+  padding: 30px 50px;
+  margin: 40px 0;
+}
+/*****************************
 			fonts
 *****************************/
 /*pfsquaresanspro-medium*/
@@ -93,9 +102,15 @@ body {
   overflow-x: hidden;
   margin-top: -20px;
 }
+.weatherInformer7_co1 {
+  width: 100% !important;
+}
 /*****************************
 			header
 *****************************/
+header {
+  padding-top: 30px;
+}
 header .social {
   text-align: center;
   display: table;
@@ -167,8 +182,6 @@ header .logo {
   display: table;
   margin-right: auto;
   padding-right: 30px;
-  position: relative;
-  top: 8px;
 }
 header .logo img {
   width: 100%;
@@ -236,7 +249,7 @@ section.navigation .navbar #responsive-menu ul.navbar-nav {
   float: none;
 }
 section.navigation .navbar #responsive-menu ul.navbar-nav li {
-  padding: 5px 20px;
+  padding: 5px 10px;
   float: none;
   position: relative;
   display: inline-block;
@@ -494,6 +507,57 @@ section.propose .slide img {
   height: 240px;
 }
 /*****************************
+			index-news
+*****************************/
+section.find-tours img {
+  width: 100%;
+}
+section.index-news {
+  margin-top: 15px;
+}
+section.index-news .news-tittle {
+  text-align: center;
+}
+section.index-news .news-div {
+  margin: 10px 0 15px;
+}
+section.index-news .news-div img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+section.index-news .news-div article {
+  font-size: 12px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+section.index-news .news-div a {
+  text-decoration: none;
+  color: #ff6501;
+}
+section.index-news .advice img {
+  margin-bottom: 12px;
+}
+section.index-news .advice .advice-tittle {
+  text-align: center;
+  margin-bottom: 49px;
+}
+section.index-news .advice a {
+  color: white;
+  background-color: #ff6501;
+  padding: 10px 20px;
+  margin: 2px 0 10px;
+  display: inline-block;
+}
+section.index-news .advice a:hover {
+  color: #d7d7d7;
+}
+section.index-news .weather {
+  margin: 0px auto 20px;
+}
+section.index-news .exchange {
+  margin-bottom: 20px;
+}
+/*****************************
 			news
 *****************************/
 .news .left {
@@ -585,7 +649,7 @@ section.propose .slide img {
   bottom: 20px;
 }
 .news-open-general nav a i {
-  margin-right: 5px;
+  margin-right: 11px;
 }
 .news-open-general article {
   line-height: 25px;
@@ -1275,7 +1339,10 @@ aside .contacts-aside {
     width: auto;
   }
   #responsive-menu ul.navbar-nav li {
-    padding: 5px 10px !important;
+    padding: 5px 5px !important;
+  }
+  #responsive-menu ul.navbar-nav li a {
+    font-size: 14px !important;
   }
   footer .footer-column ul li .fa-email {
     float: none;

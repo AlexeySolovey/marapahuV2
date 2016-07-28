@@ -8,6 +8,15 @@
 @light-gray:#F3F3F3;
 
 /*-------------------*/
+/*****************************
+			tittle
+*****************************/
+section.tittle{
+    background-color:@orange;
+    color:white;
+    padding:30px 50px;
+    margin:40px 0;
+}
 
 /*****************************
 			fonts
@@ -92,10 +101,14 @@ body{
     overflow-x:hidden;
     margin-top: -20px;
 }
+.weatherInformer7_co1{
+    width:100% !important;
+}
 /*****************************
 			header
 *****************************/
 header{
+	    padding-top: 30px;
 	.social{
         text-align: center;
         display: table;
@@ -168,8 +181,6 @@ header{
         display: table;
         margin-right: auto;
         padding-right: 30px;
-        position:relative;
-        top:8px;
         img{
             width: 100%;
         }
@@ -239,7 +250,7 @@ section.navigation{
 				&.navbar-nav{
 					float: none;
 					li{
-						padding:5px 20px;
+						padding:5px 10px;
 						float: none;
 						position: relative;
 						display: inline-block;
@@ -514,6 +525,63 @@ section.propose{
 }
 
 /*****************************
+			index-news
+*****************************/
+section.find-tours{
+    img{
+        width:100%;
+    }
+}
+section.index-news{
+    margin-top: 15px;
+    .news-tittle{
+        text-align: center;
+    }
+    .news-div{
+        margin:10px 0 15px;
+        img{
+            width:100%;
+            margin-bottom:12px;
+        }
+        article{
+            font-size: 12px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+        a{
+            text-decoration:none;
+            color:@orange;
+
+        }
+    }
+    .advice{
+        img{
+            margin-bottom:12px;
+        }
+      .advice-tittle{
+            text-align: center;
+            margin-bottom:49px;
+        }
+      a{
+          color:white;
+          background-color:@orange;
+          padding:10px 20px;
+              margin: 2px 0 10px;
+        display: inline-block;
+      }
+      a:hover{
+          color:@color_hover;
+      }
+    }
+    .weather{
+        margin:0px auto 20px;
+    }
+    .exchange{
+        margin-bottom:20px;
+    }
+}
+
+/*****************************
 			news
 *****************************/
 .news{
@@ -576,11 +644,11 @@ section.propose{
                 border: 1px solid;
                 text-decoration:none;
             }
-            &:active,{
+            &:active{
                 background-color:@orange;
                 color:white;
             }
-            .active, {
+            .active {
                  border: 1px solid @orange;
                 background-color:@orange;
                 color:white;
@@ -611,7 +679,7 @@ section.propose{
             position:relative;
             bottom:20px;
             i{
-                margin-right:5px;
+                margin-right:11px;
             }
         }
     }
@@ -1342,7 +1410,10 @@ aside{
 		ul{
 		    &.navbar-nav{
 				li{
-					padding:5px 10px !important;
+					padding:5px 5px !important;
+                    a{
+                        font-size:14px !important;
+                    }
                     }
                 }
             }

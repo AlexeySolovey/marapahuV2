@@ -11,7 +11,11 @@
 		    maxSlides: 3,
 		    moveSlides: 1,
 		    slideMargin: 10
-		  });
+		});
+
+		$(function () {
+		    $.scrollUp();
+		});
 	});
 
 	$(function () {

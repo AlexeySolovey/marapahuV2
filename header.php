@@ -65,7 +65,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="findTours.php">Поиск туров</a>
+                            <a href="findTours.php">Поиск тура</a>
                             <div class="jaw">
                                 <div></div>
                             </div>
@@ -77,7 +77,19 @@
                             </div>
                         </li>
                         <li>
-                            <a href="services.php">Услуги</a>
+                            <a href="busTours.php">Автобусные туры</a>
+                            <div class="jaw">
+                                <div></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="services.php">Наши услуги</a>
+                            <div class="jaw">
+                                <div></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="shares.php">Акции</a>
                             <div class="jaw">
                                 <div></div>
                             </div>
