@@ -1,4 +1,4 @@
-﻿/*for page "Contacts"*/
+/*for page "Contacts"*/
 /*-------------------*/
 /*****************************
 			tittle
@@ -220,11 +220,20 @@ header .phones ul li .fa-mobile-last {
   padding-top: 1px;
   font-size: 22px;
 }
+.header-empty {
+  height: 62px;
+  display: inline-block;
+  width: 100%;
+}
 /*****************************
 		navigation
 *****************************/
 section.navigation {
   background: #ff6501;
+  position: absolute;
+  top: 530px;
+  z-index: 1000;
+  width: 100%;
 }
 section.navigation .navbar {
   margin-bottom: 0;
@@ -268,6 +277,9 @@ section.navigation .navbar #responsive-menu ul.navbar-nav li a:hover {
 /*****************************
 		main slider
 *****************************/
+section#main_slider .carousel-inner {
+  margin-top: 67px;
+}
 section#main_slider .carousel-inner .item {
   border-bottom: 2px solid #ff6501;
 }
@@ -560,6 +572,9 @@ section.index-news .exchange {
 /*****************************
 			news
 *****************************/
+.news {
+  margin-top: 70px;
+}
 .news .left {
   padding: 25px 0 0 80px;
 }
@@ -586,7 +601,7 @@ section.index-news .exchange {
   margin-bottom: 35px;
 }
 .news .news-block a {
-  color: #FADA31;
+  color: #fada31;
 }
 .news hr {
   width: 84%;
@@ -708,6 +723,7 @@ section.index-news .exchange {
 		hot-rours
 *****************************/
 section.hot-tours {
+  margin-top: 67px;
   background: url(../images/sea.jpg) no-repeat bottom center;
   background-size: cover;
   color: #fff;
@@ -910,6 +926,7 @@ footer .footer-social ul a li i {
 		reviews page
 *****************************/
 .rewiews-header {
+  margin-top: 67px;
   font-family: 'GOTHICBI' !important;
   font-size: 24px;
 }
@@ -1071,7 +1088,7 @@ footer .footer-social ul a li i {
 		  services
 *****************************/
 section.services {
-  margin-top: 30px;
+  margin-top: 95px;
 }
 section.services .service-icon {
   height: 70px;
@@ -1098,7 +1115,7 @@ section.services .service-icon .fa-mobile {
 }
 section.services .container-fluid .row {
   padding: 18px 45px 18px 45px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   color: white;
 }
 section.services .our-services-top {
@@ -1206,7 +1223,7 @@ section.services .service-button button:hover {
 /*****************************
 *****************************/
 .contacts-container-bottom {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   padding: 3px 0 30px 0;
 }
 .contacts-profile {
@@ -1261,6 +1278,7 @@ section.services .service-button button:hover {
   padding: 9px 9px 6px 9px;
 }
 .contacts-container {
+  margin-top: 95px;
   padding-bottom: 40px;
 }
 .contacts-map {
@@ -1403,5 +1421,10 @@ aside .contacts-aside {
   .modal-right {
     width: 100%;
     padding: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  section.navigation {
+    top: 189px;
   }
 }

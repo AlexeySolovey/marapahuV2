@@ -223,11 +223,20 @@ header{
 		}
 	}
 }
+.header-empty{
+    height:62px;
+    display:inline-block;
+    width:100%;
+}
 /*****************************
 		navigation
 *****************************/
 section.navigation{
 	background: @orange;
+    position: absolute;
+    top: 530px;
+    z-index: 1000;
+    width:100%;
 	.navbar{
 		margin-bottom: 0;
 		.navbar-header{
@@ -278,6 +287,7 @@ section.navigation{
 *****************************/
 section#main_slider{
 	.carousel-inner{
+            margin-top: 67px;
 		.item{
 			border-bottom: 2px solid @orange;
             .carousel-img{
@@ -587,6 +597,7 @@ section.index-news{
 			news
 *****************************/
 .news{
+    margin-top: 70px;
     .left{
    padding: 25px 0 0 80px;
     }
@@ -745,6 +756,7 @@ section.index-news{
 		hot-rours
 *****************************/
 section.hot-tours{
+        margin-top: 67px;
 	background: url(../images/sea.jpg) no-repeat bottom center;
     background-size:cover;
 	color: #fff;
@@ -951,6 +963,7 @@ footer{
 		reviews page
 *****************************/
 .rewiews-header{
+    margin-top: 67px;
     font-family: 'GOTHICBI' !important;
     font-size:24px;
     h3{
@@ -1120,7 +1133,8 @@ footer{
 		  services
 *****************************/
 section.services{
-    margin-top:30px;
+    margin-top:95px;
+
             .service-icon{
             height:70px;
             width:70px;
@@ -1318,6 +1332,7 @@ section.services{
 
     }
 .contacts-container{
+        margin-top: 95px;
     padding-bottom:40px;
 }
 .contacts-map{
@@ -1493,5 +1508,7 @@ aside{
 }
 
 @media screen and (min-width: 992px){
-
+	section.navigation{
+    	top: 189px;
+	}
 }
