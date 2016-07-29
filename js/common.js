@@ -16,6 +16,19 @@
 		$(function () {
 		    $.scrollUp();
 		});
+
+		$(window).scroll(function () {
+		    if ($(this).scrollTop() > 100) {
+		        $('section.navigation').css("position", "fixed");
+		        $('section.navigation').css("top", "0");
+		        $('section.navigation').css("z-index", "1000");
+		        $('section.navigation').css("width", "100%");
+		    } else {
+		        $('section.navigation').css("position", "relative");
+		        $('section.navigation').css("top", "0");
+		    }
+		});
+
 	});
 
 //	$('.tour').hover(
