@@ -220,11 +220,20 @@ header .phones ul li .fa-mobile-last {
   padding-top: 1px;
   font-size: 22px;
 }
+.header-empty {
+  height: 62px;
+  display: inline-block;
+  width: 100%;
+}
 /*****************************
 		navigation
 *****************************/
 section.navigation {
   background: #ff6501;
+  position: absolute;
+  top: 189px;
+  z-index: 1000;
+  width: 100%;
 }
 section.navigation .navbar {
   margin-bottom: 0;
@@ -268,6 +277,9 @@ section.navigation .navbar #responsive-menu ul.navbar-nav li a:hover {
 /*****************************
 		main slider
 *****************************/
+section#main_slider .carousel-inner {
+  margin-top: 67px;
+}
 section#main_slider .carousel-inner .item {
   border-bottom: 2px solid #ff6501;
 }
@@ -560,6 +572,9 @@ section.index-news .exchange {
 /*****************************
 			news
 *****************************/
+.news {
+  margin-top: 70px;
+}
 .news .left {
   padding: 25px 0 0 80px;
 }
@@ -708,6 +723,7 @@ section.index-news .exchange {
 		hot-rours
 *****************************/
 section.hot-tours {
+  margin-top: 67px;
   background: url(../images/sea.jpg) no-repeat bottom center;
   background-size: cover;
   color: #fff;
@@ -910,6 +926,7 @@ footer .footer-social ul a li i {
 		reviews page
 *****************************/
 .rewiews-header {
+  margin-top: 67px;
   font-family: 'GOTHICBI' !important;
   font-size: 24px;
 }
@@ -1071,7 +1088,7 @@ footer .footer-social ul a li i {
 		  services
 *****************************/
 section.services {
-  margin-top: 30px;
+  margin-top: 95px;
 }
 section.services .service-icon {
   height: 70px;
@@ -1261,6 +1278,7 @@ section.services .service-button button:hover {
   padding: 9px 9px 6px 9px;
 }
 .contacts-container {
+  margin-top: 95px;
   padding-bottom: 40px;
 }
 .contacts-map {
@@ -1297,6 +1315,12 @@ aside .contacts-aside {
   footer .footer-column ul li .fa-email {
     margin-left: 27px;
   }
+  .service-question .triangle {
+    display: none;
+  }
+  .service-button {
+    margin-top: 177px !important;
+  }
 }
 @media screen and (max-width: 1091px) {
   .phones {
@@ -1325,6 +1349,9 @@ aside .contacts-aside {
   }
 }
 @media screen and (max-width: 991px) {
+  .service-button {
+    margin-top: 38px !important;
+  }
   header .social {
     margin-left: auto;
   }
