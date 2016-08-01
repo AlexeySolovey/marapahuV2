@@ -30,7 +30,11 @@
 		//});
 
 	    //media
+<<<<<<< HEAD
+		if (window.matchMedia('(min-width: 768px)').matches) {
+=======
 		if (window.matchMedia('(min-width: 992px)').matches) {
+>>>>>>> origin/master
 		    $(window).scroll(function () {
 		        if ($(this).scrollTop() < 136) {
 		            $('section.navigation').css("position", "absolute");
@@ -43,7 +47,11 @@
 		    });
 		} else {
 		    $(window).scroll(function () {
+<<<<<<< HEAD
+		        if ($(this).scrollTop() > 1) {
+=======
 		        if ($(this).scrollTop() > 500) {
+>>>>>>> origin/master
 		            $('section.navigation').css("position", "fixed");
 		            $('section.navigation').css("top", "0");
 		        } else {
@@ -54,7 +62,11 @@
 		}
 	    //resize
 		$(window).resize(function () {
+<<<<<<< HEAD
+		    if (window.matchMedia('(min-width: 768px)').matches) {
+=======
 		    if (window.matchMedia('(min-width: 992px)').matches) {
+>>>>>>> origin/master
 		        $(window).scroll(function () {
 		            if ($(this).scrollTop() < 136) {
 		                $('section.navigation').css("position", "absolute");
@@ -66,7 +78,11 @@
 		        });
 		    } else {
 		        $(window).scroll(function () {
+<<<<<<< HEAD
+		            if ($(this).scrollTop() > 1) {
+=======
 		            if ($(this).scrollTop() > 500) {
+>>>>>>> origin/master
 		                $('section.navigation').css("position", "fixed");
 		                $('section.navigation').css("top", "0");
 		            } else {
@@ -77,7 +93,11 @@
 		    }
 		});
 		$(window).resize(function () {
+<<<<<<< HEAD
+		    if (window.matchMedia('(min-width: 768px)').matches) {
+=======
 		    if (window.matchMedia('(min-width: 992px)').matches) {
+>>>>>>> origin/master
 		        if ($(this).scrollTop() < 136) {
 		            $('section.navigation').css("position", "absolute");
 		            $('section.navigation').css("top", "189px");
@@ -86,7 +106,11 @@
 		            $('section.navigation').css("top", "0");
 		        }
 		    } else {
+<<<<<<< HEAD
+		        if ($(this).scrollTop() > 1) {
+=======
 		        if ($(this).scrollTop() > 500) {
+>>>>>>> origin/master
 		            $('section.navigation').css("position", "fixed");
 		            $('section.navigation').css("top", "0");
 		        } else {

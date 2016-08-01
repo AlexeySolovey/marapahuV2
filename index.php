@@ -112,7 +112,7 @@
                             <p>Оставайтесь в курсе всех важных и интересных событий</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row news-container">
                         <div class="col-md-6">
                             <div class="news-div">
                                 <img src="http://joinup.ua/media/2016/07/maldivy-kuhnya-listalka-3-1.jpg" />
@@ -149,7 +149,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row news-container">
                         <div class="col-md-6">
                             <div class="news-div">
                                 <img src="http://joinup.ua/media/2016/07/andorra-rannee-bronirovanie-zastavksa.jpg" />
@@ -179,7 +179,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row news-container">
                         <div class="col-md-6">
                             <div class="news-div">
                                 <img src="http://joinup.ua/media/2016/07/andorra-rannee-bronirovanie-zastavksa.jpg" />

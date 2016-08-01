@@ -1,4 +1,4 @@
-/*for page "Contacts"*/
+﻿/*for page "Contacts"*/
 /*-------------------*/
 /*****************************
 			tittle
@@ -116,7 +116,7 @@ header .social {
   display: table;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 31px;
+  padding-top: 40px;
   margin-left: 40px;
 }
 header .social p {
@@ -188,7 +188,7 @@ header .logo img {
 }
 header .phones {
   margin-left: 24px;
-  padding-top: 23px;
+  padding-top: 40px;
   padding-left: 24px;
   width: 123%;
 }
@@ -230,6 +230,7 @@ header .phones ul li .fa-mobile-last {
 *****************************/
 section.navigation {
   background: #ff6501;
+  top: 189px;
   position: absolute;
   top: 530px;
   z-index: 1000;
@@ -270,6 +271,7 @@ section.navigation .navbar #responsive-menu ul.navbar-nav li a {
   color: #fff;
   font-size: 17px;
   text-decoration: none;
+  font-weight: bold;
 }
 section.navigation .navbar #responsive-menu ul.navbar-nav li a:hover {
   color: #d7d7d7;
@@ -326,6 +328,7 @@ section#main_slider .carousel-inner .item .container .carousel-caption button:ho
 section.services {
   text-align: center;
   margin-bottom: 25px;
+  margin-top: 115px !important;
 }
 section.services h2 {
   font-size: 24px;
@@ -527,6 +530,9 @@ section.find-tours img {
 section.index-news {
   margin-top: 15px;
 }
+section.index-news .news-container {
+  border-right: 1px solid gray;
+}
 section.index-news .news-tittle {
   text-align: center;
 }
@@ -601,7 +607,7 @@ section.index-news .exchange {
   margin-bottom: 35px;
 }
 .news .news-block a {
-  color: #fada31;
+  color: #FADA31;
 }
 .news hr {
   width: 84%;
@@ -646,10 +652,39 @@ section.index-news .exchange {
   padding: 5px 8px 5px 9px;
 }
 /*****************************
+		open-services
+*****************************/
+.service-open-general {
+  padding: 15px 10px;
+  margin-top: 85px;
+}
+.service-open-general img {
+  width: 100%;
+}
+.service-open-general nav a {
+  display: inline-block;
+  padding: 10px 70px;
+  text-decoration: none;
+  background-color: #ff6501;
+  color: white;
+  position: relative;
+  bottom: 20px;
+}
+.service-open-general nav a i {
+  margin-right: 20px;
+}
+.service-open-general article {
+  line-height: 25px;
+}
+.service-open-general article p {
+  font-size: 16px;
+}
+/*****************************
 		open-news
 *****************************/
 .news-open-general {
   padding: 15px 100px;
+  margin-top: 85px;
 }
 .news-open-general img {
   width: 100%;
@@ -858,7 +893,7 @@ footer {
   color: #fff;
 }
 footer .footer-column {
-  margin: 20px 0;
+  margin: 20px 0 0;
   text-align: center;
 }
 footer .footer-column p {
@@ -1115,7 +1150,7 @@ section.services .service-icon .fa-mobile {
 }
 section.services .container-fluid .row {
   padding: 18px 45px 18px 45px;
-  background-color: #f3f3f3;
+  background-color: #F3F3F3;
   color: white;
 }
 section.services .our-services-top {
@@ -1137,27 +1172,27 @@ section.services .our-services-text {
   padding-left: 8px;
 }
 section.services .item-1 {
-  background: url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/12/maldives-4-600x400.jpg") no-repeat center;
+  background: url("../images/tours.jpg") no-repeat center;
   background-size: cover;
 }
 section.services .item-2 {
-  background: url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/136.jpg") no-repeat center;
+  background: url("../images/tickets.jpg") no-repeat center;
   background-size: cover;
 }
 section.services .item-3 {
-  background: url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/insurance.jpg") no-repeat center;
+  background: url("../images/insurance.jpg") no-repeat center;
   background-size: cover;
 }
 section.services .item-4 {
-  background: url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/viza.jpg") no-repeat center;
+  background: url("../images/visa.jpg") no-repeat center;
   background-size: cover;
 }
 section.services .item-5 {
-  background: url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/tracel-sim-1024x682.png") no-repeat center;
+  background: url("../images/travelsim.jpg") no-repeat center;
   background-size: cover;
 }
 section.services .item-6 {
-  background: url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/obraz-za-rubejom.jpg") no-repeat center;
+  background: url("../images/certificate.jpg") no-repeat center;
   background-size: cover;
 }
 section.services .service-item {
@@ -1223,7 +1258,7 @@ section.services .service-button button:hover {
 /*****************************
 *****************************/
 .contacts-container-bottom {
-  background-color: #f3f3f3;
+  background-color: #F3F3F3;
   padding: 3px 0 30px 0;
 }
 .contacts-profile {
@@ -1349,6 +1384,9 @@ aside .contacts-aside {
   }
 }
 @media screen and (max-width: 991px) {
+  .service-icon {
+    margin-right: 0px !important;
+  }
   .service-button {
     margin-top: 38px !important;
   }
