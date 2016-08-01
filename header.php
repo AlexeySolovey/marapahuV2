@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="social">
-                <p>мы в соц сетях</p>
+                <!--<p>мы в соц сетях</p>-->
                 <ul>
                     <a href="#">
                         <li><i class="fa fa-facebook"></i></li>
@@ -24,7 +24,7 @@
         </div>
         <div class="col-md-3">
             <div class="phones">
-                <p>Наши контакты</p>
+                <!--<p>Наши контакты</p>-->
                 <ul>
                     <li>
                         <i class="fa fa-phone"></i>

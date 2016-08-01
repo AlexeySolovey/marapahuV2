@@ -116,7 +116,7 @@ header{
         display: table;
         margin-left: auto;
         margin-right: auto;
-		padding-top: 31px;
+		padding-top: 40px;
         margin-left: 40px;
 		p{
 			font-family: @FGM-regular;
@@ -189,7 +189,7 @@ header{
 	}
 	.phones{
         margin-left: 24px;
-		padding-top: 23px;
+		padding-top: 40px;
 		padding-left: 24px;
         width: 123%;
 		P{
@@ -235,6 +235,8 @@ section.navigation{
 	background: @orange;
         position: absolute;
     top: 189px;
+    position: absolute;
+    top: 530px;
     z-index: 1000;
     width:100%;
 	.navbar{
@@ -272,6 +274,7 @@ section.navigation{
 							color: #fff;
 							font-size: 17px;
 							text-decoration: none;
+                            font-weight:bold;
 							&:hover{
 								color:@color_hover;
 							}
@@ -338,6 +341,7 @@ section#main_slider{
 section.services{
 	text-align: center;
     margin-bottom:25px;
+    margin-top:115px !important;
 	h2{
 		font-size: 24px;
 		padding-bottom: 10px;
@@ -546,6 +550,9 @@ section.find-tours{
 }
 section.index-news{
     margin-top: 15px;
+    .news-container{
+        border-right:1px solid gray;
+    }
     .news-tittle{
         text-align: center;
     }
@@ -673,12 +680,44 @@ section.index-news{
         }
     }
 }
+/*****************************
+		open-services
+*****************************/
+.service-open-general{
+    padding: 15px 10px;
+    margin-top: 85px;
+    img{
+        width:100%;
+    }
+    nav{
+        a{
+            display: inline-block;
+            padding: 10px 70px;
+            text-decoration:none;
+            background-color:@orange;
+            color:white;
+            position:relative;
+            bottom:20px;
+            i{
+                margin-right:20px;
+            }
+        }
+    }
+    article{
+       line-height: 25px;
+       p{
+           font-size:16px;
+       }
+    }
+}
+
 
 /*****************************
 		open-news
 *****************************/
 .news-open-general{
     padding: 15px 100px;
+    margin-top: 85px;
     img{
         width:100%;
     }
@@ -891,7 +930,7 @@ footer{
 	background: @orange;
 	color: #fff;
     .footer-column{
-        margin:20px 0;
+        margin:20px 0 0;
         text-align:center;
         p{
             margin-bottom: 10px;
@@ -1185,27 +1224,27 @@ section.services{
         padding-left: 8px;
     }
     .item-1{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/12/maldives-4-600x400.jpg") no-repeat center;
+        background:url("../images/tours.jpg") no-repeat center;
         background-size:cover;
     }
      .item-2{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/136.jpg") no-repeat center;
+        background:url("../images/tickets.jpg") no-repeat center;
         background-size:cover;
     }
       .item-3{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/insurance.jpg") no-repeat center;
+        background:url("../images/insurance.jpg") no-repeat center;
         background-size:cover;
     }
        .item-4{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/viza.jpg") no-repeat center;
+        background:url("../images/visa.jpg") no-repeat center;
         background-size:cover;
     }
         .item-5{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/tracel-sim-1024x682.png") no-repeat center;
+        background:url("../images/travelsim.jpg") no-repeat center;
         background-size:cover;
     }
          .item-6{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/obraz-za-rubejom.jpg") no-repeat center;
+        background:url("../images/certificate.jpg") no-repeat center;
         background-size:cover;
     }
     .service-item{
@@ -1418,6 +1457,9 @@ aside{
     }
 }
 @media screen and (max-width: 991px){
+    .service-icon{
+        margin-right: 0px !important;
+    }
        .service-button{
         margin-top: 38px !important;
     }
@@ -1508,5 +1550,7 @@ aside{
 }
 
 @media screen and (min-width: 992px){
-
+	section.navigation{
+    	top: 189px;
+	}
 }

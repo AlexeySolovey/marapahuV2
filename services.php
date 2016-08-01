@@ -22,7 +22,7 @@
                         <div class="service-icon">
                             <i class="fa fa-calendar"></i>
                         </div>
-                        <a href="#">Продажа туров</a>
+                        <a href="findTours.php">Продажа туров</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -30,7 +30,7 @@
                         <div class="service-icon">
                             <i class="fa fa-plane"></i>
                         </div>
-                        <a href="#">Авиабилеты</a>
+                        <a href="tickets.php">Авиабилеты</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -38,7 +38,7 @@
                         <div class="service-icon">
                             <i class="fa fa-flag-o"></i>
                         </div>
-                        <a href="#">Страхование</a>
+                        <a href="insurance.php">Страхование</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                         <div class="service-icon">
                             <i class="fa fa-suitcase"></i>
                         </div>
-                        <a href="#">Визовая поддержка</a>
+                        <a href="visaSupport.php">Визовая поддержка</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -57,7 +57,7 @@
                         <div class="service-icon">
                             <i class="fa fa-mobile"></i>
                         </div>
-                        <a href="#">TravelSim</a>
+                        <a href="travelsim.php">TravelSim</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -65,12 +65,12 @@
                         <div class="service-icon">
                             <i class="fa fa-users"></i>
                         </div>
-                        <a href="#">Образование за рубежом</a>
+                        <a href="certificate.php">Подарочные сертификаты</a>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
+            <!--<div class="row">
                 <div class="col-md-8">
                     <div class="service-question">
                         <div class="service-icon">
@@ -88,7 +88,7 @@
                         <button data-toggle="modal" data-target="#myModal" class="btn">ОТПРАВИТЬ ЗАПРОС</button>
                     </div>
                 </div>
-            </div>
+            </div>-->
         
 
         </div>
