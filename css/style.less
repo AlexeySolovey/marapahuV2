@@ -55,20 +55,29 @@ section.tittle{
     font-family: 'GOTHICBI';
     src: url('../fonts/GOTHICBI.TTF') format('truetype');
 }
-/*Marta Italc*/
+
 @font-face {
     font-family: 'marta_italic';
     src: url('../fonts/marta_italic.otf') format('opentype');
 }
-/*Caviar Dreams*/
-@font-face {
+
+/*@font-face {
     font-family: '7fonts.ru_CaviarDreams';
     src: url('../fonts/7fonts.ru_CaviarDreams.ttf') format('truetype');
 }
-/*Caviar Dreams Bold*/
+
 @font-face {
     font-family: '7fonts.ru_CaviarDreams_Bold';
     src: url('../fonts/7fonts.ru_CaviarDreams_Bold.ttf') format('truetype');
+}*/
+
+@font-face {
+    font-family: 'Merriweather-Bold';
+    src: url('../fonts/merriweather/Merriweather-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto.eot') format('embedded-opentype');
 }
 /*****************************
 			main
@@ -106,6 +115,13 @@ body{
 .weatherInformer7_co1{
     width:100% !important;
 }
+p, span, article{
+    font-family: 'roboto' !important;
+}
+h1, h2, h3, h4, h5, h6, b{
+    font-family: 'Merriweather-Bold' !important;
+}
+
 /*****************************
 			header
 *****************************/
