@@ -140,7 +140,7 @@ header .social {
   margin-left: 40px;
 }
 header .social p {
-  font-family: Franklin Gothic Medium Regular;
+  /*font-family: @FGM-regular;*/
   font-size: 18px;
   margin-bottom: 7px;
 }
@@ -221,7 +221,7 @@ header .phones ul {
 }
 header .phones ul li {
   font-size: 20px;
-  font-family: Franklin Gothic Medium Regular;
+  /*font-family: @FGM-regular;*/
   line-height: 1.88;
 }
 header .phones ul li i {
@@ -982,11 +982,11 @@ footer .footer-social ul a li i {
 *****************************/
 .rewiews-header {
   margin-top: 67px;
-  font-family: 'GOTHICBI' !important;
+  /*font-family: 'GOTHICBI' !important;*/
   font-size: 24px;
 }
 .rewiews-header h3 {
-  font-family: 'GOTHICBI' !important;
+  /*font-family: 'GOTHICBI' !important;*/
   font-size: 14px;
   margin: 0;
   margin-bottom: 25px;
@@ -1008,12 +1008,12 @@ footer .footer-social ul a li i {
   top: 41px;
 }
 .review-block .review-text {
-  font-family: 'marta_italic';
+  font-family: 'marta_italic' !important;
   float: left;
   margin-bottom: 15px;
 }
 .review-block .review-author {
-  font-family: 'marta_italic';
+  font-family: 'marta_italic' !important;
   display: inline-block;
   color: orange;
 }
@@ -1037,7 +1037,7 @@ footer .footer-social ul a li i {
   color: white;
   text-align: center;
   vertical-align: middle;
-  font-family: 'GOTHICB';
+  /*font-family: 'GOTHICB';*/
   padding: 15px 15px;
 }
 .review-send-block header span:first-child {
@@ -1084,7 +1084,7 @@ footer .footer-social ul a li i {
   margin-left: auto;
   margin-right: auto;
   color: #ff6501;
-  font-family: 'GOTHICB';
+  /*font-family: 'GOTHICB';*/
   margin-bottom: 20px;
 }
 .review-send-block article .btn {
